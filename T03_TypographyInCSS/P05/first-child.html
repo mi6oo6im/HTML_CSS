@@ -4,9 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selector Cardio General or Subsequent Sibling Combinator</title>
+    <title>Selector Cardio First Child</title>
+    <style>
+       article span:first-child {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
 </head>
-
 <body>
     <article>
         <span>This is not red because it appears before any paragraph.</span>
@@ -27,5 +32,4 @@
         This span is not red because it doesn't share a parent with a paragraph
     </span>
 </body>
-
 </html>
