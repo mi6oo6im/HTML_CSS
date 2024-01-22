@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+html {
+    font: 14/1.5 Montserrat, sans-serif;
+}
+
+body {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: 14/1.5 "Libre Baskerville", serif;
+}
+
+h1 {
+    font-size: 2.6em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.8em;
+}
+h4 {
+    font-size: 1.6em;
+}
+h5 {
+    font-size: 1.2em;
+}
+h6 {
+    font-size: 1em;
+}

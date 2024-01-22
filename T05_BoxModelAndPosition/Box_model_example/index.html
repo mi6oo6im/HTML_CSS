@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body {
+            padding: 2em;
+            font: 16px/1.5 Arial, sans-serif;
+        }
+
+        div {
+            padding: 2em;
+            border: 1px solid black;
+        }
+
+        .outside {
+            background-color: white;
+        }
+
+        .margin {
+            background-color: orange;
+        }
+
+        .border {
+            background-color: lightgoldenrodyellow;
+        }
+
+        .padding {
+            background-color: lightgreen;
+        }
+
+        .content {
+           background-color: lightblue;     
+        }
+
+        .box {
+            margin: 2em auto;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outside"> <span>this is outside the box</span>
+        <div class="margin"> <span>this is the margin</span>
+            <div class="border"> <span>this is the border</span>
+                <div class="padding"> <span>this is the padding</span>
+                    <div class="content">
+                        <p>My content</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident necessitatibus voluptatem dignissimos magnam totam nobis esse voluptate consectetur nisi quas, quod dolor eum deserunt tempora odit distinctio, alias doloremque dolorem?</p>
+    </div>
+</body>
+</html>
