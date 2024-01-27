@@ -1,0 +1,38 @@
+html {
+    font: 15px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    font: inherit;
+    padding: 20px;
+}
+
+header {
+    border-bottom: 2px solid #000;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li, nav h1, nav ul {
+    display: inline-block;
+    
+}
+
+nav a {
+    margin: 1em;
+    text-decoration: none;
+    color: rgb(84, 193, 84);
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 2s, ease-in;
+}
+
+nav a:hover {
+    opacity: 0.4;
+}
+
+main h1 {
+    font: 26px/1.6 Times, serif;
+}
