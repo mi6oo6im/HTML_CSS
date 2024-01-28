@@ -1,0 +1,98 @@
+html {
+    font: 15px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    font: inherit;
+    padding: 20px;
+    background-color: rgb(238, 238, 238);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    width: 40%;
+    padding: 0 2em;
+    float: right;
+    border-left: 1px solid rgb(0, 0, 0, 0.4);
+}
+
+header {
+    border-bottom: 2px solid #000;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1em 1em rgb(0, 0, 0, 0.25);
+}
+
+main, aside {
+    display: inline-block;
+}
+
+main {
+    width: 65%;
+}
+
+aside {
+    width: 30%;
+    vertical-align: top;
+    margin-left: 2em;
+}
+
+header nav ul {
+    list-style-type: none;
+    position: absolute;
+    right: 2em;
+}
+
+header nav li, nav h1, nav ul {
+    display: inline-block;
+}
+
+main h1, main h2  {
+    font: 1em/1.2 Georgia, serif;
+}
+
+header nav a {
+    margin: 1em;
+    text-decoration: none;
+    color: rgb(84, 193, 84);
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 2s, ease-in;
+}
+
+main h1, main h2 {
+    margin-bottom: 2em;
+    font-size: 1.5em;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+header nav a:hover {
+    opacity: 0.4;
+}
+
+aside nav a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+.first-image {
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.second-image {
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    display: block;
+}
+
+.autor {
+    text-align: right;
+}
