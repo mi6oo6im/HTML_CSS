@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    position: absolute;
+    top: 250px;
+    left: 180px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+span {
+    padding-left: 3px;
+    color: gray;
+    font-size: 14px;
+}
+
+div {
+    position: relative;
+    bottom: 50px;
+    left: 8px;
+}
+
+/* 
+
+
+· <div>
+
+o Set the position to relative
+
+o Use the coordinates: 50px and 8px to position the text correctl */
