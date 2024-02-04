@@ -9,31 +9,36 @@
             padding: 0;
             margin: 0;
         }
-
+        
         *, *::before, *::after {
             box-sizing: inherit;
         }
-
+        
         html {
             box-sizing: border-box;
         }
-
+        
         body {
-                background-color: #eee;
-                padding: 5rem;
-                display: flex;
-                flex-wrap: wrap;
-                gap: 1rem;
+            background-color: #eee;
+            padding: 5rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
         }
-
+        
         main {
-            flex: 8 1 40rem;
+            flex: 1 0 70%;
         }
-
+        
         aside {
-            flex: 2 1 20rem;
+            flex: 1 1 auto;
         }
-
+        
+        body > main,
+        body > aside {
+            min-height: 300px;
+        }
+        
         header, main, aside, footer {
             border: 2px solid #ccc;
             box-shadow: 0 0 0.2em 0 rgb(0, 0, 0, 0.2);
@@ -42,28 +47,16 @@
             border-radius: 0.4rem;
             color: #000;
         }
-
+        
         header, footer {
             flex-basis: 100%;
         }
-
-        /*
-       
-
-· <main>
-
-o flex - 8 1 40rem;
-
-· <aside>
-
-o flex - 2 1 20rem;
-        */
     </style>
 </head>
 <body>
-    <header>HEADER</header>
-    <main>MAIN</main>
-    <aside>ASIDE</aside>
-    <footer>FOOTER</footer>
+    <header><p>HEADER</p></header>
+    <main><p>MAIN</p></main>
+    <aside><p>ASIDE</p></aside>
+    <footer><p>FOOTER</p></footer>
 </body>
 </html>

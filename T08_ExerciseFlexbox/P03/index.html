@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Game</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            max-height: 100vh;
+            max-width: 40vw;
+            gap: 2em;
+        }
+
+        .container span {
+            border: 2px solid #ccc;
+            padding: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        span.num-1 {
+            order: 9;
+        }
+
+        span.num-2 {
+            order: 2;
+        }
+
+        span.num-3 {
+            order: 10;
+        }
+
+        span.num-4 {
+            order: 4;
+        }
+
+        span.num-5 {
+            order: 8;
+        }
+
+        span.num-6 {
+            order: 7;
+        }
+
+        span.num-7 {
+            order: 11;
+        }
+
+        span.num-8 {
+            order: 5;
+        }
+
+        span.num-9 {
+            order: 6;
+        }
+
+        span.num-10 {
+            order: 12;
+        }
+
+        span.num-11 {
+            order: 1;
+        }
+
+        span.num-12 {
+            order: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="num-1">H</span>
+        <span class="num-2">e</span>
+        <span class="num-3">T</span>
+        <span class="num-4">a</span>
+        <span class="num-5">c</span>
+        <span class="num-6">i</span>
+        <span class="num-7">M</span>
+        <span class="num-8">n</span>
+        <span class="num-9">t</span>
+        <span class="num-10">L</span>
+        <span class="num-11">S</span>
+        <span class="num-12">m</span>
+    </div>
+</body>
+</html>
