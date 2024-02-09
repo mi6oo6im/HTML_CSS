@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Site Layout</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 2em;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            gap: 2em;
+        }
+
+        header, main, aside, footer {
+            background-color: rgb(133, 166, 204);
+            border-radius: 0.4em;
+            padding: 0.5em;
+        }
+
+        header, footer {
+            min-width: 90vw;
+        }
+
+        aside {
+            flex: 0 1 20%;
+        }
+
+        main {
+            flex: 1 1 auto;
+        }
+        
+        main ul{
+            padding: 0.5em 2em;
+        }
+
+        aside li {
+            list-style: none outside;
+        }
+        
+        aside a {
+            text-decoration: none;
+        }
+
+        /*Responsive design*/
+
+        @media (max-width: 500px) {
+            body {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome</h1>
+    </header>
+    <aside>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tasks</a></li>
+            <li><a href="#">Create</a></li>
+        </ul>
+    </aside>
+    <main>
+        <h1>Tasks: 6</h1>
+        <ul>
+            <li>Open: 3</li>
+            <li>In Progress: 1</li>
+            <li>Done: 2</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2021 - Task Board</p>
+    </footer>
+</body>
+</html>
