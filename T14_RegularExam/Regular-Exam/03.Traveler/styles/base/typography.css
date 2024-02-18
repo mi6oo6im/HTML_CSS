@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+html {
+    font: 18px/1.5 Karla, sans-serif;
+    }
+
+
+body, table, input {
+    font: inherit;
+}
+
+
+h1, h2, h3, h4, blockquote {
+    font-family: "Cormorant Infant", serif;
+}
+
