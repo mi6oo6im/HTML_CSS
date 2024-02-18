@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+    header nav {
+        margin-left: 0;
+        flex-direction: column;
+    } 
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    .header-title {
+        padding: 1em 0;
+    }
+
+    .header-title h1 {
+        font-size: 32px;
+    }
+}
